@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Oswald:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Orbitron;
+}
+body{
+    background-image: url(guide-bbq-spit.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    user-select:none
+
+}
+
+
+button{
+    background-color: transparent;
+    margin: 0 5px;
+    padding: 5px 8px;
+    font-weight: bold;
+    border-radius:10px;
+    border: none;
+    box-shadow:  8px 8px 15px #000000,-8px -8px 15px #000000;
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+  
+  
+.timer{
+
+    border-radius: 20px;
+    text-align: center;
+    width: 80px;
+    /* box-shadow: inset 5px  5px 4px #b1b1b1 , inset -5px  -5px 4px #ffffff; */
+}
